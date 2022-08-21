@@ -80,7 +80,7 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
         </li>
         <li className='form__item'>
           <label htmlFor="email">Email</label>
-          <input {...register("email")} type="text" id='email' />
+          <input {...register("email")} type="email" id='email' />
         </li>
         <li className='form__item'>
           <label htmlFor="password">Password</label>
