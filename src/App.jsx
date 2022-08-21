@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <h1>Users</h1>
       <div className='contenedor_button_openForm'>
-      <button className='button_openForm' onClick={handleOpenForm}>Open Form</button>
+      <button className='button_openForm'onClick={handleOpenForm}>Open Form</button>
       </div>
       
       <div className={isFormOpen ? 'form-container' : 'form-none'}>

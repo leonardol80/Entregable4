@@ -47,11 +47,11 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
     
   const submit = data => {
     if(updateInfo){
-      // Update Movie
+      // Update User
       updateUser(data)
       setUpdateInfo()
     } else {
-      // Create New Movie
+      // Create New User
       createUser(data)
     }
     reset(defaultValue)
