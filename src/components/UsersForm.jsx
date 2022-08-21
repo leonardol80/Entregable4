@@ -41,6 +41,7 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
   const resetFuntion=()=>{
     reset(defaultValue)
     handleCloseForm()
+    setUpdateInfo()
   }
     
   const {register, reset, handleSubmit} = useForm()
@@ -58,9 +59,13 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
     handleCloseForm()
   }
 
+  const resetForm = () =>{
+    setUpdateInfo()
+  }
+
   return (
     <form onSubmit={handleSubmit(submit)} className='form'>
-      <div onClick={handleCloseForm} className='form__equis'>x</div>
+      <div onClick={resetFuntion} className='form__equis'>x</div>
       <h2 className='form__title'>
         {
           updateInfo ? 
