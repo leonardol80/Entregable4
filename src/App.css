@@ -1,0 +1,85 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+h1, h2, h3, hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  width: 400px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #aaa9;
+  transition: transform 200ms ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 200ms ease;
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 7px;
+  color: #aaac;
+  padding-left: 10px;
+}
+.card__span {
+  color: black;
+  transform: translateX(-10px);
+}
+.card__footer {
+  display: flex;
+  gap: 20px; 
+}
+.card__btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card__btn:nth-child(1){
+  background-image: url(../public/bx-trash.svg);
+  background-color: brown;
+  color: white;
+}
+.card__btn:nth-child(2){
+  background-image: url(../public/bx-edit.svg);
+  background-color: goldenrod;
+  color: white;
+}
+.contenedor_button_openForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  margin-bottom: 1em;
+}
+.button_openForm {
+  background-color:blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
