@@ -99,5 +99,6 @@ i{
 }
 .titulo{
   display: flex;
+  justify-content: center;
   flex-direction: row;
 }
