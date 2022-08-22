@@ -55,6 +55,12 @@ h1 {
   display: flex;
   gap: 20px; 
 }
+
+.card__footer{
+  display: flex;
+  justify-content: flex-end;
+}
+
 .card__btn {
   border: none;
   padding: 8px 12px;
