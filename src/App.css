@@ -34,6 +34,7 @@ h1 {
   padding: 20px;
   border: 1px solid #aaa9;
   transition: transform 200ms ease;
+  overflow: hidden
 }
 .card:hover {
   transform: scale(1.05);
@@ -66,6 +67,7 @@ h1 {
   padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
+  padding: 1em;
 }
 
 .card__btn:nth-child(1){
