@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 body{
+  max-width: 1250px;
   background-color: #607EAA;
   margin: 0;
 }
@@ -95,4 +96,8 @@ h1 {
 }
 i{
   padding: 5px;
+}
+.titulo{
+  display: flex;
+  flex-direction: row;
 }

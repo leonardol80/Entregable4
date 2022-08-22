@@ -29,9 +29,12 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Users</h1>
+      <div className='titulo'>
+      <h1>Users App</h1>
+      </div>
       <div className='contenedor_button_openForm'>
-      <button className='button_openForm'onClick={handleOpenForm}>Open Form</button>
+      <i className="fa-solid fa-user"></i>
+      <button className='button_openForm'onClick={handleOpenForm}>New Users</button>
       </div>
       
       <div className={isFormOpen ? 'form-container' : 'form-none'}>
