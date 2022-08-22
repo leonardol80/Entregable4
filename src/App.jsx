@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <div className='titulo'>
-      <h1>Users App</h1>
+      <h1>User App</h1>
       </div>
       <div className='contenedor_button_openForm'>
       <i className="fa-solid fa-user"></i>
