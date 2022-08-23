@@ -76,23 +76,23 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
       </h2>
       <ul className='form__list'>
         <li className='form__item'>
-          <label htmlFor="first_name">First Name</label>
-          <input {...register("first_name")} type="text" id='first_name' />
+          <label htmlFor="first_name">First Name </label>
+          <input placeholder='Introducir el nombre' {...register("first_name")} type="text" id='first_name' />
         </li>
         <li className='form__item'>
-          <label htmlFor="last_name">Last Name</label>
-          <input {...register("last_name")} type="text" id='last_name' />
+          <label htmlFor="last_name">Last Name </label>
+          <input placeholder='Introducir el apellido' {...register("last_name")} type="text" id='last_name' />
         </li>
         <li className='form__item'>
-          <label htmlFor="email">Email</label>
-          <input {...register("email")} type="email" id='email' />
+          <label htmlFor="email">Email </label>
+          <input placeholder='Introducir su email' {...register("email")} type="email" id='email' />
         </li>
         <li className='form__item'>
-          <label htmlFor="password">Password</label>
-          <input {...register("password")} type="password" id='password' />
+          <label htmlFor="password">Password </label>
+          <input placeholder='Introducir contraseña' {...register("password")} type="password" id='password' />
         </li>
         <li className='form__item'>
-          <label htmlFor="birthday">Birthday</label>
+          <label htmlFor="birthday">Birthday </label>
           <input {...register("birthday")} type="date" id='birthday' />
         </li>
       </ul>
