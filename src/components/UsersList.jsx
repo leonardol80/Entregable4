@@ -22,7 +22,7 @@ const UsersList = ({ user, getAllUsers, setUpdateInfo, handleOpenForm }) => {
     <article className="card">
       <ul className="card__list">
         <li className="card__item">
-          <div className="disp">
+          <div className="disp_uno">
             <i className="fa-solid fa-user"></i>
             <span className="card__span">{user.first_name} {user.last_name}</span>
           </div>
