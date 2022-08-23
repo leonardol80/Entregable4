@@ -77,19 +77,19 @@ const UsersForm = ({getAllUsers, updateInfo, setUpdateInfo, handleCloseForm}) =>
       <ul className='form__list'>
         <li className='form__item'>
           <label htmlFor="first_name">First Name </label>
-          <input placeholder='Introducir el nombre' {...register("first_name")} type="text" id='first_name' />
+          <input placeholder='Enter the name' {...register("first_name")} type="text" id='first_name' />
         </li>
         <li className='form__item'>
           <label htmlFor="last_name">Last Name </label>
-          <input placeholder='Introducir el apellido' {...register("last_name")} type="text" id='last_name' />
+          <input placeholder='Enter last name' {...register("last_name")} type="text" id='last_name' />
         </li>
         <li className='form__item'>
           <label htmlFor="email">Email </label>
-          <input placeholder='Introducir su email' {...register("email")} type="email" id='email' />
+          <input placeholder='Enter your e-mail address' {...register("email")} type="email" id='email' />
         </li>
         <li className='form__item'>
           <label htmlFor="password">Password </label>
-          <input placeholder='Introducir contraseña' {...register("password")} type="password" id='password' />
+          <input placeholder='Enter the password' {...register("password")} type="password" id='password' />
         </li>
         <li className='form__item'>
           <label htmlFor="birthday">Birthday </label>
